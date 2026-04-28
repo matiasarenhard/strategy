@@ -1,5 +1,5 @@
 class Checkout
-  attr_reader :strategy
+  attr_accessor :strategy
 
   def initialize(strategy)
     @strategy = strategy
