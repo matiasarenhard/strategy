@@ -5,7 +5,7 @@ class Checkout
     @strategy = strategy
   end
 
-  def complete(amount)
+  def process(amount)
     strategy.pay(amount)
   end
 end
